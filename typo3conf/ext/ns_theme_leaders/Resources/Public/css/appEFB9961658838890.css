@@ -12059,43 +12059,43 @@ body,
 }
 
 /****************************************************************************
- * Fonts
- ***************************************************************************/
+  * Fonts
+  ***************************************************************************/
 @font-face {
   font-family: 'LucidaSans';
   font-style: normal;
   font-weight: 400;
-  src: url("typo3conf/ext/ns_theme_leaders/Resources/Publicfont/LucidaSans-Unicode.eot");
-  src: url("font/LucidaSans-Unicode1.eot.eot") format("embedded-opentype"), url("font/LucidaSans-Unicode.woff2") format("woff2"), url("font/LucidaSans-Unicode.woff") format("woff"), url("font/LucidaSans-Unicode.ttf") format("truetype"), url("font/LucidaSans-Unicode.svg) format("svg");
+  src: url("../font/LucidaSans-Unicode.eot");
+  src: url("../font/LucidaSans-Unicode%EF%B9%96.eot#iefix") format("embedded-opentype"), url("../font/LucidaSans-Unicode.woff2") format("woff2"), url("../font/LucidaSans-Unicode.woff") format("woff"), url("../font/LucidaSans-Unicode.ttf") format("truetype"), url("../font/LucidaSans-Unicode.svg#LucidaSans-Unicode") format("svg");
 }
 
 @font-face {
   font-family: 'Calibri';
   font-style: normal;
   font-weight: 400;
-  src: url("font/Calibri-Regular.eot");
-  src: url("font/Calibri-Regular.eot") format("embedded-opentype"), url("font/Calibri-Regular.woff2") format("woff2"), url("font/Calibri-Regular.woff") format("woff"), url("font/Calibri-Regular.ttf") format("truetype"), url("font/Calibri-Regular.svg") format("svg");
+  src: url("../font/Calibri-Regular.eot");
+  src: url("../font/Calibri-Regular%EF%B9%96.eot#iefix") format("embedded-opentype"), url("../font/Calibri-Regular.woff2") format("woff2"), url("../font/Calibri-Regular.woff") format("woff"), url("../font/Calibri-Regular.ttf") format("truetype"), url("../font/Calibri-Regular.svg#Calibri-Regular") format("svg");
 }
 
 @font-face {
   font-family: 'Calibri';
   font-style: normal;
   font-weight: 700;
-  src: url("font/Calibri-Bold.eot");
-  src: url("font/Calibri-Bold.eot") format("embedded-opentype"), url("font/Calibri-Bold.woff2") format("woff2"), url("font/Calibri-Bold.woff") format("woff"), url("font/Calibri-Bold.ttf") format("truetype"), url("font/Calibri-Bold.svg") format("svg");
+  src: url("../font/Calibri-Bold.eot");
+  src: url("../font/Calibri-Bold%EF%B9%96.eot#iefix") format("embedded-opentype"), url("../font/Calibri-Bold.woff2") format("woff2"), url("../font/Calibri-Bold.woff") format("woff"), url("../font/Calibri-Bold.ttf") format("truetype"), url("../font/Calibri-Bold.svg#Calibri-Bold") format("svg");
 }
 
 @font-face {
   font-family: 'Calibri';
   font-style: italic;
   font-weight: 700;
-  src: url("font/Calibri-BoldItalic.eot");
-  src: url("font/Calibri-BoldItalic%EF%B9%96.eot#iefix") format("embedded-opentype"), url("font/Calibri-BoldItalic.woff2") format("woff2"), url("font/Calibri-BoldItalic.woff") format("woff"), url("font/Calibri-BoldItalic.ttf") format("truetype"), url("font/Calibri-BoldItalic.svg") format("svg");
+  src: url("../font/Calibri-BoldItalic.eot");
+  src: url("../font/Calibri-BoldItalic%EF%B9%96.eot#iefix") format("embedded-opentype"), url("../font/Calibri-BoldItalic.woff2") format("woff2"), url("../font/Calibri-BoldItalic.woff") format("woff"), url("../font/Calibri-BoldItalic.ttf") format("truetype"), url("../font/Calibri-BoldItalic.svg#Calibri-BoldItalic") format("svg");
 }
 
 /****************************************************************************
-  Body
- ***************************************************************************/
+   Body
+  ***************************************************************************/
 body {
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -12127,8 +12127,8 @@ ul {
 }
 
 /****************************************************************************
-  Links
- ***************************************************************************/
+   Links
+  ***************************************************************************/
 a {
   -webkit-transition: all 0.2s ease 0s;
   -moz-transition: all 0.2s ease 0s;
@@ -12182,8 +12182,8 @@ sup {
 }
 
 /****************************************************************************
-  Headings
- ***************************************************************************/
+   Headings
+  ***************************************************************************/
 h1,
 h2,
 h3,
@@ -12277,13 +12277,13 @@ h4 {
 }
 
 /**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
+  * Owl Carousel v2.3.4
+  * Copyright 2013-2018 David Deutsch
+  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+  */
 /*
- *  Owl Carousel - Core
- */
+  *  Owl Carousel - Core
+  */
 .owl-carousel {
   display: none;
   width: 100%;
@@ -12412,8 +12412,8 @@ h4 {
 }
 
 /*
- *  Owl Carousel - Animate Plugin
- */
+  *  Owl Carousel - Animate Plugin
+  */
 .owl-carousel .animated {
   animation-duration: 1000ms;
   animation-fill-mode: both;
@@ -12442,20 +12442,20 @@ h4 {
 }
 
 /*
- * 	Owl Carousel - Auto Height Plugin
- */
+  * 	Owl Carousel - Auto Height Plugin
+  */
 .owl-height {
   transition: height 500ms ease-in-out;
 }
 
 /*
- * 	Owl Carousel - Lazy Load Plugin
- */
+  * 	Owl Carousel - Lazy Load Plugin
+  */
 .owl-carousel .owl-item {
   /**
-			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
-			calculation of the height of the owl-item that breaks page layouts
-		 */
+       This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+       calculation of the height of the owl-item that breaks page layouts
+      */
 }
 
 .owl-carousel .owl-item .owl-lazy {
@@ -12473,8 +12473,8 @@ h4 {
 }
 
 /*
- * 	Owl Carousel - Video Plugin
- */
+  * 	Owl Carousel - Video Plugin
+  */
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
@@ -12522,12 +12522,12 @@ h4 {
 }
 
 /*!
- * animate.css -http://daneden.me/animate
- * Version - 3.7.0
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2018 Daniel Eden
- */
+  * animate.css -http://daneden.me/animate
+  * Version - 3.7.0
+  * Licensed under the MIT license - http://opensource.org/licenses/MIT
+  *
+  * Copyright (c) 2018 Daniel Eden
+  */
 @-webkit-keyframes bounce {
 
   from,
@@ -16150,8 +16150,8 @@ h4 {
 
 @font-face {
   font-family: 'ElegantIcons';
-  src: url("font/ElegantIcons.eot");
-  src: url("font/ElegantIcons%EF%B9%96.eot#iefix") format("embedded-opentype"), url("font/ElegantIcons.woff") format("woff"), url("font/ElegantIcons.ttf") format("truetype"), url("font/ElegantIcons.svg") format("svg");
+  src: url("../font/ElegantIcons.eot");
+  src: url("../font/ElegantIcons%EF%B9%96.eot#iefix") format("embedded-opentype"), url("../font/ElegantIcons.woff") format("woff"), url("../font/ElegantIcons.ttf") format("truetype"), url("../font/ElegantIcons.svg#ElegantIcons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16171,10 +16171,10 @@ h4 {
 
 /* Use the following CSS code if you want to have a class per icon */
 /*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="your-class-prefix"] {
-*/
+ Instead of a list of all class selectors,
+ you can use the generic selector below, but it's slower:
+ [class*="your-class-prefix"] {
+ */
 .arrow_up,
 .arrow_down,
 .arrow_left,
@@ -18365,8 +18365,8 @@ you can use the generic selector below, but it's slower:
 }
 
 /*******************************************************************************
-* PAGE HEADER
-*******************************************************************************/
+ * PAGE HEADER
+ *******************************************************************************/
 .page-header {
   display: -moz-inline-stack;
   display: inline-block;
@@ -18878,8 +18878,8 @@ nav>ul>li>a {
 }
 
 /*******************************************************************************
-* Footer
-*******************************************************************************/
+ * Footer
+ *******************************************************************************/
 .page-footer {
   background-color: #333;
   color: #fff;
@@ -19016,8 +19016,8 @@ nav>ul>li>a {
 }
 
 /*******************************************************************************
-* Content Section
-*******************************************************************************/
+ * Content Section
+ *******************************************************************************/
 .content-section {
   padding: 35px 0 15px;
 }
@@ -19137,7 +19137,7 @@ main ol li {
 }
 
 .page-title__clover-icon::before {
-  content: url("images/icons/icon-clover.png");
+  content: url("../images/icons/icon-clover.png");
   margin-right: 3px;
   position: relative;
   top: 7px;
@@ -19184,8 +19184,8 @@ main ol li {
 }
 
 /*******************************************************************************
-* General
-*******************************************************************************/
+ * General
+ *******************************************************************************/
 .multistep-form-wrap {
   background-color: #ccc;
 }
@@ -19363,7 +19363,7 @@ main ol li {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("images/icons/icon-pdf-download.png");
+  background-image: url("../images/icons/icon-pdf-download.png");
   background-size: contain;
   content: '';
   height: 32px;
@@ -19451,8 +19451,8 @@ main ol li {
 }
 
 /*******************************************************************************
-* Button
-*******************************************************************************/
+ * Button
+ *******************************************************************************/
 .btn {
   -webkit-transition: all 0.2s ease 0s;
   -moz-transition: all 0.2s ease 0s;
@@ -19533,8 +19533,8 @@ main ol li {
 }
 
 /**************************************************************************
-* Form
-***************************************************************************/
+ * Form
+ ***************************************************************************/
 .form-group {
   margin-bottom: 15px;
 }
@@ -19762,8 +19762,8 @@ label {
 }
 
 /****************************************************************************
- * TYPO3 CMS Styles
- ***************************************************************************/
+  * TYPO3 CMS Styles
+  ***************************************************************************/
 .ce-align-left,
 .ce-headline-left {
   text-align: left;
@@ -20112,8 +20112,8 @@ hr {
 }
 
 /*******************************************************************************
-* All Slider
-*******************************************************************************/
+ * All Slider
+ *******************************************************************************/
 .owl-carousel .owl-nav span {
   display: none;
 }
@@ -20220,7 +20220,7 @@ hr {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("images/icons/prev.png");
+  background-image: url("../images/icons/prev.png");
   content: '';
   height: 20px;
   width: 20px;
@@ -20296,8 +20296,8 @@ hr {
 }
 
 /*******************************************************************************
-* Banner
-*******************************************************************************/
+ * Banner
+ *******************************************************************************/
 .landing-section {
   position: relative;
   z-index: 1;
@@ -20734,8 +20734,8 @@ hr {
 }
 
 /*******************************************************************************
-* Marquee Blocks
-*******************************************************************************/
+ * Marquee Blocks
+ *******************************************************************************/
 .marquee-section {
   background-color: #333;
   padding: 20px 15px;
@@ -20752,8 +20752,8 @@ hr {
 }
 
 /*******************************************************************************
-* Teaser Blocks
-*******************************************************************************/
+ * Teaser Blocks
+ *******************************************************************************/
 .text-teaser {
   margin-bottom: 30px;
 }
@@ -20992,7 +20992,7 @@ hr {
   background-position: center center;
   background-repeat: no-repeat;
   background-color: transparent;
-  background-image: url("images/icons/icon-check.png");
+  background-image: url("../images/icons/icon-check.png");
   height: 22px;
   left: -7px;
   top: 5px;
@@ -21078,8 +21078,8 @@ hr {
 }
 
 /*******************************************************************************
-* Testimonial Blocks
-*******************************************************************************/
+ * Testimonial Blocks
+ *******************************************************************************/
 .testimonial-section {
   padding: 30px 0;
 }
@@ -21161,8 +21161,8 @@ hr {
 }
 
 /*******************************************************************************
-* Get Started Section
-*******************************************************************************/
+ * Get Started Section
+ *******************************************************************************/
 form .actions {
   margin-top: 15px;
 }
@@ -21394,8 +21394,8 @@ form .actions {
 }
 
 /*******************************************************************************
-* Accordion block
-*******************************************************************************/
+ * Accordion block
+ *******************************************************************************/
 .accordion-wrap .accordion-heading {
   margin-bottom: 30px;
 }
@@ -21479,8 +21479,8 @@ form .actions {
 }
 
 /*******************************************************************************
-* Why Choose Blocks
-*******************************************************************************/
+ * Why Choose Blocks
+ *******************************************************************************/
 .why-choose-block {
   display: -webkit-box;
   display: -moz-box;
@@ -21594,8 +21594,8 @@ form .actions {
 }
 
 /*******************************************************************************
-* Service Block
-*******************************************************************************/
+ * Service Block
+ *******************************************************************************/
 .service-teaser {
   display: -moz-inline-stack;
   display: inline-block;
@@ -21646,8 +21646,8 @@ form .actions {
 }
 
 /*******************************************************************************
-* Products Blocks
-*******************************************************************************/
+ * Products Blocks
+ *******************************************************************************/
 .product-teaser {
   margin: 25px 0;
   text-align: center;
@@ -21715,8 +21715,8 @@ form .actions {
 }
 
 /*******************************************************************************
-* Equipment Blocks
-*******************************************************************************/
+ * Equipment Blocks
+ *******************************************************************************/
 .equipment-teaser {
   margin: 25px 0 55px;
 }
@@ -21877,8 +21877,8 @@ form .actions {
 }
 
 /*******************************************************************************
-* Tabs
-*******************************************************************************/
+ * Tabs
+ *******************************************************************************/
 .tab__link {
   display: none;
 }
@@ -22216,8 +22216,8 @@ select {
 }
 
 /**************************************************************************
-* Multi-Step Form
-***************************************************************************/
+ * Multi-Step Form
+ ***************************************************************************/
 .multistep-form-section {
   padding: 40px 0;
 }
@@ -22586,6 +22586,8 @@ select {
   }
 }
 
+/*# sourceMappingURL=app.css.map */
+
 
 .popup-wrapper {
   position: fixed;
@@ -22806,7 +22808,7 @@ select {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb(138, 138, 138)'></polygon></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
   background-origin: content-box;
   background-position: right -1rem center;
   background-repeat: no-repeat;
@@ -22814,7 +22816,6 @@ select {
   padding-right: 1.5rem;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
 }
-
 
 .popup-section .frame .btn.btn-primary {
   border: 1px solid transparent;
@@ -22952,8 +22953,8 @@ section.popup-section .popup-container .content-section .container .frame-layout
 
 
 /**************************************************************************
-* Multi-Step Form Checkbox Reveal
-***************************************************************************/
+ * Multi-Step Form Checkbox Reveal
+ ***************************************************************************/
 form .custom-control.custom-checkbox {
   padding-top: 20px;
 }

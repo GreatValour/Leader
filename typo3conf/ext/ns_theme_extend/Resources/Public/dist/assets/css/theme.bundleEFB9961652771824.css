@@ -10902,8 +10902,8 @@ a.text-dark:hover {
 
 @font-face {
     font-family: ElegantIcons;
-    src: url(fonts/ElegantIcons.eot);
-    src: url(fonts/ElegantIcons%EF%B9%96.eot#iefix) format("embedded-opentype"), url(fonts/ElegantIcons.woff) format("woff"), url(fonts/ElegantIcons.ttf) format("truetype"), url(fonts/ElegantIcons.svg) format("svg");
+    src: url(../fonts/ElegantIcons.eot);
+    src: url(../fonts/ElegantIcons%EF%B9%96.eot#iefix) format("embedded-opentype"), url(../fonts/ElegantIcons.woff) format("woff"), url(../fonts/ElegantIcons.ttf) format("truetype"), url(../fonts/ElegantIcons.svg#ElegantIcons) format("svg");
     font-weight: 400;
     font-style: normal
 }
